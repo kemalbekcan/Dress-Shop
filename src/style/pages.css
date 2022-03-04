@@ -1,9 +1,129 @@
 @import url('./vars.css');
 .shop {
-    border: 1px solid red
 }
 
 .shop__title {
     color:  var(--text-grey);
     font-size: var(--text-small);
+}
+
+.shop .shop-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.shop .shop-container .shop-container-right {
+    margin-left: 30px;
+}
+
+.shop .shop-container .shop-container-right__price {
+    display: block;
+    font-size: 22px;
+    color: #1F2937;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.shop .shop-container .shop-container-right__size {
+    display: block;
+    font-size: 12px;
+    color: #1F2937;
+    font-weight: 600;
+    margin-top: 27px;
+    margin-bottom: 16px;
+}
+
+.shop .shop-container .shop-container-right__color {
+    display: block;
+    font-size: 12px;
+    color: #1F2937;
+    font-weight: 600;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.shop-container-right-size {
+    display: flex;
+}
+
+.shop-container-right-size .shop-container-right-size-circle {
+    width: 33px;
+    height: 33px;
+    border: 0.694444px solid #9CA3AF;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+}
+
+.shop-container-right-size .shop-container-right-size-circle:hover {
+    cursor: pointer;
+}
+
+.shop-container-right-size .shop-container-right-size-circle__brown {
+    width: 33px;
+    height: 33px;
+    border: 0.694444px solid #9CA3AF;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+    background-color: brown;
+}
+
+.shop-container-right-size .shop-container-right-size-circle__black {
+    width: 33px;
+    height: 33px;
+    border: 0.694444px solid #9CA3AF;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+    background-color: black;
+}
+
+.shop-container-right-size .shop-container-right-size-circle__green {
+    width: 33px;
+    height: 33px;
+    border: 0.694444px solid #9CA3AF;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+    background-color: green;
+}
+
+.shop-container-right__quantity {
+    display: block;
+    margin-top: 27px;
+}
+
+.shop-container-right-quantity {
+    display: flex;
+    margin-top: 16px;
+}
+
+.shop-container-right-quantity button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: solid;
+    background: #FFFFFF;
+}
+
+.shop-container-right-quantity span {
+    display: flex;
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline: solid;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
 }

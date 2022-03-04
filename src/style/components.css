@@ -1,6 +1,5 @@
 @import url('./vars.css');
 header {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,4 +42,14 @@ header .navbar .navbar-lists .navbar-lists-list__item {
     text-decoration: none;
     font-size: var(--text-headout);
     color: var(--text-grey);
+}
+
+.primary {
+    width: 320.83px;
+    height: 44.44px;
+    background: #1F2937;
+    border-radius: 2.08333px;
+    margin-top: 27px;
+    color: white;
+    border: none;
 }
